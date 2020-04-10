@@ -27,6 +27,7 @@ namespace LinusTorvalds
             String timeString;
 
             do {
+                Console.WriteLine("Write time in 'hh:mm' format");
                 timeString = Console.ReadLine();
             } while (!isValidTime(timeString));
 
